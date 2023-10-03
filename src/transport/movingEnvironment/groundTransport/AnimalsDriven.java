@@ -1,4 +1,4 @@
 package transport.movingEnvironment.groundTransport;
 
-public interface animalsDriven extends GroundTransport{
+public interface AnimalsDriven extends GroundTransport{
 }

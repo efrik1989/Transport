@@ -2,7 +2,7 @@ import transport.Transport;
 import transport.energyType.InternalCombustionEngine;
 import transport.movingEnvironment.groundTransport.Automotive;
 import transport.purpose.IndividualTransport;
-import transport.purpose.PublicTransport;
+import transport.purpose.SpecialTransport;
 
-public class Car extends Transport implements InternalCombustionEngine, IndividualTransport, Automotive {
+public class Tank extends Transport implements SpecialTransport, Automotive, InternalCombustionEngine {
 }
